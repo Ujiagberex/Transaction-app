@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&family=Rubik&family=Sanchez&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+   display: flex;
+   justify-content: center;
+
+   
+}
+
+.phone {
+    border-radius: 8px;
+    width: 380px;
+    height: 640px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    background-color: rgb(224, 217, 217);
+    
+}
+
+.phone .phone-top {
+    width: 360px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone-top .left {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .dp{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-image: url(/images/dp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.left .detail{
+    word-wrap:break-word;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.phone-content {
+    width: 360px;
+    height: 494px;
+    margin-top: 10px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.phone-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.phone-content #deposit{
+   height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    font-size: large;
+}
+
+.phone-content button {
+    margin-top: 10px;
+    height: 40px;
+    width: 20vh;
+    border: none;
+    border-radius: 8px;
+    align-self:center;
+    font-size: medium;
+    background-color: rgba(16, 176, 11, 0.685);
+    cursor: pointer;
+    position: relative;
+    left: 30%;  
+}
+
+.phone-content button:hover{
+    background-color: rgba(16, 136, 16, 0.265);
+}
+
+.phone-bottom {
+    width: 380px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 10px;
+    border-top: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

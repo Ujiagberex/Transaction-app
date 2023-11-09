@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&family=Rubik&family=Sanchez&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+   display: flex;
+   justify-content: center;
+
+   
+}
+
+.phone {
+    border-radius: 8px;
+    width: 380px;
+    height: 640px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(224, 217, 217);
+    
+}
+
+.phone .phone-top {
+    width: 360px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone-top .left {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .dp{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-image: url(/images/dp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.left .detail{
+    word-wrap:break-word;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.right {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    align-self: center;
+    background-image: url(/images/Bell.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.phone-content {
+    width: 360px;
+    height: 494px;
+    margin-top: 10px;
+}
+
+.phone-content .carousel {
+    width: 360px;
+    height: 237px;
+    border-radius: 8px;
+    animation-duration: 20s;
+    animation-name: images;
+    animation-iteration-count: infinite;
+    background-size: cover;
+}
+
+.phone-content .images {
+    width: 360px;
+    height: 238px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.images .imgs {
+    width: 170px;
+    height: 110px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.phone-bottom {
+    width: 380px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 10px;
+    border-top: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+@keyframes images {
+0% {background-image: url(./images/andre-taissin-5OUMf1Mr5pU-unsplash.jpg);}
+
+25% { background-image: url(./images/dmytro-demidko-eBWzFKahEaU-unsplash.jpg);}
+
+50% { background-image: url(./images/etienne-martin-2_K82gx9Uk8-unsplash.jpg);}
+
+75% {background-image: url(./images/towfiqu-barbhuiya-joqWSI9u_XM-unsplash.jpg);}
+
+100% {
+    background-image: url(./images/eduardo-soares-7I5A7630GpY-unsplash.jpg);
+}
+
+}
